@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: roboto;
+    margin: 12px;
+  }
+h2 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px
+}
+p{
+    text-align: center;
+    font-family: Roboto;
+
+}
+p {
+    text-align:center;
+    font-family: "Cedarville Cursive"
+}
+  
+  .container {
+    background-color: rgb(255, 255, 255);
+    padding: 5% 0;
+  }
+  
+  .flag {
+    width: 200px;
+    height: 25px;
+    margin:auto
+  }
+  .red {
+    background-color: rgb(255,0,0)
+  }
+  .orange {
+    background-color: rgb(255,170,0)
+  }
+  .green {
+    background-color: #007F00;
+  }
+  .yellow {
+    background-color: rgb(255,255,0)
+  }
+  .blue {
+    background-color: hsl(240, 100%, 50%);
+  }
+  .violet{
+    background-color:rgb(170,0,255)
+  }
+* {
+    box-sizing:border-box
+}
+.column {
+    display: block;
+    display: inline-block;
+    width: 200px;
+    height: px;
+    float: left;
+    margin-left: 3px;
+}
+.row {
+    content: "";
+    clear: both;
+}
